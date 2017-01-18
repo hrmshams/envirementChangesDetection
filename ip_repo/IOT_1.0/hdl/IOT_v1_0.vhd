@@ -16,6 +16,19 @@ entity IOT_v1_0 is
 	);
 	port (
 		-- Users to add ports here
+            input : in std_logic;
+            --clk : in std_logic;
+            err : out std_logic;
+            ---
+            LightSensor : in STD_LOGIC;
+            LightOut : out STD_LOGIC;
+            ----
+            sensor1 : in std_logic_vector(7 downto 0); --temprature1
+            sensor2 : in std_logic_vector(7 downto 0); --temprature2
+            sensor3 : in std_logic_vector(7 downto 0); --temprature3
+            DesiredTemperature : in std_logic_vector(7 downto 0); --WARNIGN : DO WE NEED THIS ?
+            heater : out STD_LOGIC;
+            cooler : out STD_LOGIC;
 
 		-- User ports ends
 		-- Do not modify the ports beyond this line
@@ -54,7 +67,25 @@ architecture arch_imp of IOT_v1_0 is
 		C_S_AXI_DATA_WIDTH	: integer	:= 32;
 		C_S_AXI_ADDR_WIDTH	: integer	:= 4
 		);
+		
 		port (
+		
+		        --ADDED BY HRM
+        input : in std_logic;
+        err : out std_logic; --for detecting the motion
+        ---
+        LightSensor : in STD_LOGIC;
+        LightOut : out STD_LOGIC;
+ --       microBlazeCommand : in STD_LOGIC;
+        ----
+        sensor1 : in std_logic_vector(7 downto 0); --temprature1
+        sensor2 : in std_logic_vector(7 downto 0); --temprature2
+        sensor3 : in std_logic_vector(7 downto 0); --temprature3
+        DesiredTemperature : in std_logic_vector(7 downto 0);
+        heater : out STD_LOGIC;
+        cooler : out STD_LOGIC;
+        --END OF CHANGES
+		
 		S_AXI_ACLK	: in std_logic;
 		S_AXI_ARESETN	: in std_logic;
 		S_AXI_AWADDR	: in std_logic_vector(C_S_AXI_ADDR_WIDTH-1 downto 0);
@@ -88,6 +119,22 @@ IOT_v1_0_S00_AXI_inst : IOT_v1_0_S00_AXI
 		C_S_AXI_ADDR_WIDTH	=> C_S00_AXI_ADDR_WIDTH
 	)
 	port map (
+	    
+	    --CHANGED BY HRM
+        input => input ,
+        err => err ,--for detecting the motion
+        ---
+        LightSensor => LightSensor ,
+        LightOut => LightOut ,
+        ----
+        sensor1 => sensor1 , 
+        sensor2 => sensor2 ,
+        sensor3 => sensor3 ,
+        DesiredTemperature => DesiredTemperature , --WARNING
+        heater => heater ,
+        cooler => cooler,
+	    --END
+	    
 		S_AXI_ACLK	=> s00_axi_aclk,
 		S_AXI_ARESETN	=> s00_axi_aresetn,
 		S_AXI_AWADDR	=> s00_axi_awaddr,

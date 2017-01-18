@@ -24,14 +24,13 @@ entity IOT_v1_0_S00_AXI is
             ---
             LightSensor : in STD_LOGIC;
             LightOut : out STD_LOGIC;
-            microBlazeCommand : in STD_LOGIC;
             ----
             sensor1 : in std_logic_vector(7 downto 0); --temprature1
             sensor2 : in std_logic_vector(7 downto 0); --temprature2
             sensor3 : in std_logic_vector(7 downto 0); --temprature3
-            DesiredTemperature : in std_logic_vector(7 downto 0);
+            DesiredTemperature : in std_logic_vector(7 downto 0); --WARNIGN : DO WE NEED THIS ?
             heater : out STD_LOGIC;
-            cooler : out STD_LOGIC
+            cooler : out STD_LOGIC;
             ----        
         --end of changes!
 
@@ -145,7 +144,6 @@ architecture arch_imp of IOT_v1_0_S00_AXI is
     ---
     LightSensor : in STD_LOGIC;
     LightOut : out STD_LOGIC;
-    microBlazeCommand : in STD_LOGIC;
     ----
     sensor1 : in std_logic_vector(7 downto 0); --temprature1
     sensor2 : in std_logic_vector(7 downto 0); --temprature2
@@ -420,7 +418,26 @@ begin
 
 
 	-- Add user logic here
-
+        --added by hrm
+    iot : CMDCTRL
+    port map (
+            clk => S_AXI_ACLK ,
+            OP => slv_reg0 ,
+            input => input ,
+            err => err ,--for detecting the motion
+            ---
+            LightSensor => LightSensor ,
+            LightOut => LightOut ,
+            ----
+            sensor1 => sensor1 , 
+            sensor2 => sensor2 ,
+            sensor3 => sensor3 ,
+            DesiredTemperature => DesiredTemperature , --WARNING
+            heater => heater ,
+            cooler => cooler
+            ----        
+    );
+        --end of changes
 	-- User logic ends
 
 end arch_imp;
