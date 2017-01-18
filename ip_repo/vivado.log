@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Jan 18 20:20:59 2017
+# Process ID: 5488
+# Current directory: E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8724 E:\ComputerEngineering\Digital Systems Design\project\vivado project\envirementChangesDetection\final project\ip_repo\edit_IOT_v1_0.xpr
+# Log file: E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/vivado.log
+# Journal file: E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/edit_IOT_v1_0.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 801.188 ; gain = 158.500
+remove_files {{E:/ComputerEngineering/Digital Systems Design/project/vivado project/phase 1/systemProject/systemProject.srcs/sources_1/new/LightController.vhd} {E:/ComputerEngineering/Digital Systems Design/project/vivado project/phase 1/systemProject/systemProject.srcs/sources_1/new/TemperatureController.vhd} {E:/ComputerEngineering/Digital Systems Design/project/vivado project/phase 1/systemProject/systemProject.srcs/sources_1/new/imageRecognizerModule.vhd}}
+add_files -norecurse {{E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/imageRecognizerModule.vhd} {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/TemperatureController.vhd} {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/deviderFunc.vhd} {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/LightController.vhd}}
+update_compile_order -fileset sources_1
