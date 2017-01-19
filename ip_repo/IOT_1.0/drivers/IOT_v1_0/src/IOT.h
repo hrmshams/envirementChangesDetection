@@ -76,4 +76,11 @@
  */
 XStatus IOT_Reg_SelfTest(void * baseaddr_p);
 
+/**my code**/
+void set_temp(unsigned char temperature);
+void light_on();
+void light_off();
+void motionDetectionSetEnable(int bool);
+/***********/
+
 #endif // IOT_H

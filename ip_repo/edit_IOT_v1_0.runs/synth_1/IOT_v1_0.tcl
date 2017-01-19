@@ -8,8 +8,8 @@ create_project -in_memory -part xc7z020clg484-1
 
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {e:/computerengineering/digital systems design/project/vivado project/envirementchangesdetection/final project/ip_repo/edit_IOT_v1_0.cache/wt} [current_project]
-set_property parent.project_path {e:/computerengineering/digital systems design/project/vivado project/envirementchangesdetection/final project/ip_repo/edit_IOT_v1_0.xpr} [current_project]
+set_property webtalk.parent_dir {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/edit_IOT_v1_0.cache/wt} [current_project]
+set_property parent.project_path {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/edit_IOT_v1_0.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part em.avnet.com:zed:part0:1.3 [current_project]
@@ -20,8 +20,9 @@ set_property ip_repo_paths {
 } [current_project]
 set_property vhdl_version vhdl_2k [current_fileset]
 read_vhdl -library xil_defaultlib {
-  {e:/computerengineering/digital systems design/project/vivado project/envirementchangesdetection/final project/ip_repo/iot_1.0/hdl/IOT_v1_0_S00_AXI.vhd}
-  {e:/computerengineering/digital systems design/project/vivado project/envirementchangesdetection/final project/ip_repo/iot_1.0/hdl/IOT_v1_0.vhd}
+  {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/edit_IOT_v1_0.srcs/sources_1/new/MainModule.vhd}
+  {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/iot_1.0/hdl/IOT_v1_0_S00_AXI.vhd}
+  {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/iot_1.0/hdl/IOT_v1_0.vhd}
 }
 synth_design -top IOT_v1_0 -part xc7z020clg484-1
 write_checkpoint -noxdef IOT_v1_0.dcp

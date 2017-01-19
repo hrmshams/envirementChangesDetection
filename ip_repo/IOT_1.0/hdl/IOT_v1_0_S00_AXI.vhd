@@ -28,7 +28,6 @@ entity IOT_v1_0_S00_AXI is
             sensor1 : in std_logic_vector(7 downto 0); --temprature1
             sensor2 : in std_logic_vector(7 downto 0); --temprature2
             sensor3 : in std_logic_vector(7 downto 0); --temprature3
-            DesiredTemperature : in std_logic_vector(7 downto 0); --WARNIGN : DO WE NEED THIS ?
             heater : out STD_LOGIC;
             cooler : out STD_LOGIC;
             ----        
@@ -135,7 +134,7 @@ architecture arch_imp of IOT_v1_0_S00_AXI is
 	signal byte_index	: integer;
 
     --added by hrm
-    component CMDCTRL is
+    component MainModule is
     Port (
     clk : in std_logic;
     OP : in  std_logic_vector (31 downto 0);
@@ -148,12 +147,11 @@ architecture arch_imp of IOT_v1_0_S00_AXI is
     sensor1 : in std_logic_vector(7 downto 0); --temprature1
     sensor2 : in std_logic_vector(7 downto 0); --temprature2
     sensor3 : in std_logic_vector(7 downto 0); --temprature3
-    DesiredTemperature : in std_logic_vector(7 downto 0);
     heater : out STD_LOGIC;
     cooler : out STD_LOGIC
     ----        
     );
-    end component CMDCTRL;
+    end component MainModule;
     --end of my changes!
 
 begin
@@ -419,7 +417,7 @@ begin
 
 	-- Add user logic here
         --added by hrm
-    iot : CMDCTRL
+    iot : MainModule
     port map (
             clk => S_AXI_ACLK ,
             OP => slv_reg0 ,
@@ -432,7 +430,6 @@ begin
             sensor1 => sensor1 , 
             sensor2 => sensor2 ,
             sensor3 => sensor3 ,
-            DesiredTemperature => DesiredTemperature , --WARNING
             heater => heater ,
             cooler => cooler
             ----        

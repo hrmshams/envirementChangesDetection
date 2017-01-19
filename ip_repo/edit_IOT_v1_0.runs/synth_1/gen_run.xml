@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1484754991">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1484820025">
   <File Type="RDS-DCP" Name="IOT_v1_0.dcp"/>
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
   <File Type="RDS-UTIL-PB" Name="IOT_v1_0_utilization_synth.pb"/>
@@ -13,6 +13,12 @@
   <File Type="VDS-TIMING-PB" Name="IOT_v1_0_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/MainModule.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/iot_1.0/hdl/IOT_v1_0_S00_AXI.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -28,28 +34,35 @@
     <File Path="$PPRDIR/iot_1.0/component.xml">
       <FileInfo SFType="IPXACT"/>
     </File>
-    <File Path="$PPRDIR/../../../../../../../ComputerEngineering/Digital Systems Design/project/vivado project/phase 1/systemProject/systemProject.srcs/sources_1/new/TemperatureController.vhd">
+    <File Path="$PPRDIR/../../../phase 1/systemProject/systemProject.srcs/sources_1/new/deviderFunc.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../../../../../ComputerEngineering/Digital Systems Design/project/vivado project/phase 1/systemProject/systemProject.srcs/sources_1/new/deviderFunc.vhd">
+    <File Path="$PPRDIR/source/imageRecognizerModule.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../../../../../ComputerEngineering/Digital Systems Design/project/vivado project/phase 1/systemProject/systemProject.srcs/sources_1/new/LightController.vhd">
+    <File Path="$PPRDIR/source/TemperatureController.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../../../../../../ComputerEngineering/Digital Systems Design/project/vivado project/phase 1/systemProject/systemProject.srcs/sources_1/new/imageRecognizerModule.vhd">
+    <File Path="$PPRDIR/source/deviderFunc.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/source/LightController.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -69,9 +82,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

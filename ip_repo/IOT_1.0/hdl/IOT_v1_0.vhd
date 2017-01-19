@@ -15,9 +15,9 @@ entity IOT_v1_0 is
 		C_S00_AXI_ADDR_WIDTH	: integer	:= 4
 	);
 	port (
-		-- Users to add ports here
+		    -- Users to add ports here
             input : in std_logic;
-            --clk : in std_logic;
+            -- clk : in std_logic;
             err : out std_logic;
             ---
             LightSensor : in STD_LOGIC;
@@ -26,7 +26,6 @@ entity IOT_v1_0 is
             sensor1 : in std_logic_vector(7 downto 0); --temprature1
             sensor2 : in std_logic_vector(7 downto 0); --temprature2
             sensor3 : in std_logic_vector(7 downto 0); --temprature3
-            DesiredTemperature : in std_logic_vector(7 downto 0); --WARNIGN : DO WE NEED THIS ?
             heater : out STD_LOGIC;
             cooler : out STD_LOGIC;
 
@@ -70,7 +69,7 @@ architecture arch_imp of IOT_v1_0 is
 		
 		port (
 		
-		        --ADDED BY HRM
+		--ADDED BY HRM
         input : in std_logic;
         err : out std_logic; --for detecting the motion
         ---
@@ -81,7 +80,6 @@ architecture arch_imp of IOT_v1_0 is
         sensor1 : in std_logic_vector(7 downto 0); --temprature1
         sensor2 : in std_logic_vector(7 downto 0); --temprature2
         sensor3 : in std_logic_vector(7 downto 0); --temprature3
-        DesiredTemperature : in std_logic_vector(7 downto 0);
         heater : out STD_LOGIC;
         cooler : out STD_LOGIC;
         --END OF CHANGES
@@ -130,7 +128,6 @@ IOT_v1_0_S00_AXI_inst : IOT_v1_0_S00_AXI
         sensor1 => sensor1 , 
         sensor2 => sensor2 ,
         sensor3 => sensor3 ,
-        DesiredTemperature => DesiredTemperature , --WARNING
         heater => heater ,
         cooler => cooler,
 	    --END

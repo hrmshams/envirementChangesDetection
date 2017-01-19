@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='e:/computerengineering/digital systems design/project/vivado project/envirementchangesdetection/final project/ip_repo/edit_IOT_v1_0.runs/synth_1'
+HD_PWD='E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/edit_IOT_v1_0.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
