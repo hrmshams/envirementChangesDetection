@@ -1,0 +1,1242 @@
+/*
+
+Vivado v2015.4 (64-bit)
+SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+Process ID: 7204
+
+Current time: 	1/19/17 7:57:14 PM GMT+03:30
+Time zone: 	GMT+03:30 (GMT+03:30)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.4/tps/win64/jre
+
+User name: 	hamidKhan
+User home directory: C:/Users/hamidKhan
+User working directory: E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: C:/Users/hamidKhan/AppData/Roaming/Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: C:/Users/hamidKhan/AppData/Roaming/Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	201 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 471 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\ComputerEngineering\Digital Systems Design\project\vivado project\envirementChangesDetection\final project\EnvirementChangesDetection\EnvirementChangesDetection.xpr. Version: Vivado v2015.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 32 MB (+30631kb) [00:00:05]
+// [Engine Memory]: 384 MB (+251214kb) [00:00:05]
+// Tcl Message: open_project {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 49 MB (+16429kb) [00:00:06]
+// [Engine Memory]: 406 MB (+2727kb) [00:00:06]
+// [GUI Memory]: 65 MB (+14537kb) [00:00:06]
+// [Engine Memory]: 429 MB (+3385kb) [00:00:06]
+// [Engine Memory]: 469 MB (+18813kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 476 MB. GUI used memory: 30 MB. Current time: 1/19/17 7:57:15 PM GMT+03:30
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: EnvirementChangesDetection; location: E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 773.563 ; gain = 195.449 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // y:k (I:JPanel, cq:JFrame)
+// Elapsed time: 206 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, false, true, false); // y:k (I:JPanel, cq:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa:JMenu (al:JPopupMenu, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cq:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// Elapsed time: 17 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (H:JPanel, b:g)
+String[] filenames31467 = {"E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/LightController.vhd", "E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/TemperatureController.vhd", "E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/deviderFunc.vhd", "E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/imageRecognizerModule.vhd"};
+setFileChooser(filenames31467);
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (H:JPanel, b:g)
+setFileChooser("E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/edit_IOT_v1_0.srcs/sources_1/new/MainModule.vhd");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'g' command handler elapsed time: 38 seconds
+dismissDialog("Add Sources"); // b:g (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 493 MB (+931kb) [00:04:37]
+// HMemoryUtils.trashcanNow. Engine heap size: 493 MB. GUI used memory: 32 MB. Current time: 1/19/17 8:01:45 PM GMT+03:30
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MainModule - Behavioral (MainModule.vhd)]", 1); // y:k (I:JPanel, cq:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MainModule - Behavioral (MainModule.vhd)]", 1); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MainModule - Behavioral (MainModule.vhd)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MainModule - Behavioral (MainModule.vhd)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectCodeEditor("MainModule.vhd", 169, 193); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("MainModule.vhd", 215, 207); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 99 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+// aE:x (cq:JFrame): Create Block Design: addNotify
+setText(PAResourceAtoD.CreateNewDiagramDialog_DESIGN_NAME, "design_1"); // ao:JTextField (JPanel:JComponent, aE:x)
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateNewDiagramDialog_DESIGN_NAME, "blockDesign"); // ao:JTextField (JPanel:JComponent, aE:x)
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aE:x)
+// 'D' command handler elapsed time: 23 seconds
+dismissDialog("Create Block Design"); // aE:x (cq:JFrame)
+// TclEventType: LOAD_FEATURE
+// bF:g (cq:JFrame):  Create Block Design : addNotify
+// Tcl Message: create_bd_design "blockDesign" 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 519 MB (+1223kb) [00:07:04]
+// [GUI Memory]: 74 MB (+6006kb) [00:07:05]
+// Tcl Message: Wrote  : <E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/blockDesign.bd>  
+// HMemoryUtils.trashcanNow. Engine heap size: 542 MB. GUI used memory: 38 MB. Current time: 1/19/17 8:04:12 PM GMT+03:30
+// Tcl Message: create_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 801.531 ; gain = 14.910 
+dismissDialog("Create Block Design"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 555 MB (+10611kb) [00:07:09]
+// Elapsed time: 14 seconds
+selectTab((HResource) null, (HResource) null, "Board", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Signals", 2); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Design", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 182, 204, 875, 401, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mic"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze", 0, "MicroBlaze", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze", 0); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze", 0, "MicroBlaze", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:9.5 microblaze_0 
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 570 MB. GUI used memory: 40 MB. Current time: 1/19/17 8:04:55 PM GMT+03:30
+// [GUI Memory]: 78 MB (+326kb) [00:08:09]
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells microblaze_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 26 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "micr"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1, "MicroBlaze Debug Module (MDM)", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1, "MicroBlaze Debug Module (MDM)", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:mdm:3.2 mdm_0 
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// [Engine Memory]: 592 MB (+9337kb) [00:08:18]
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 593 MB. GUI used memory: 42 MB. Current time: 1/19/17 8:05:25 PM GMT+03:30
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells mdm_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "micro"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1, "MicroBlaze Debug Module (MDM)", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1, "MicroBlaze Debug Module (MDM)", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:mdm:3.2 mdm_0 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// [GUI Memory]: 84 MB (+2002kb) [00:08:29]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "micro"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze MCS", 2, "MicroBlaze MCS", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze MCS", 2); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze MCS", 2, "MicroBlaze MCS", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze_mcs:2.3 microblaze_mcs_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_microblaze_mcs_0_0/blockDesign_microblaze_mcs_0_0.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors. 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells microblaze_mcs_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells mdm_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceCommand.PACommandNames_EXPAND_ALL_RSB_BLOCK, "System_expand_all_rsb_block"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mic"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze", 0, "MicroBlaze", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze", 0); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze", 0, "MicroBlaze", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:9.5 microblaze_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// [GUI Memory]: 89 MB (+1048kb) [00:08:46]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 616 MB. GUI used memory: 44 MB. Current time: 1/19/17 8:05:55 PM GMT+03:30
+// Elapsed time: 23 seconds
+expandTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[blockDesign, microblaze_0]", 1); // k:JTree (JViewport:JComponent, cq:JFrame)
+// Elapsed time: 21 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // w:l (R:JPanel, cq:JFrame)
+// [Engine Memory]: 624 MB (+2670kb) [00:09:39]
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1.5 437 -92} [get_bd_cells microblaze_0] 
+// Elapsed time: 12 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 591, 233, 1171, 401, false, false, false, true, false); // eC:aO (TdiGroup:JideTabbedPane, cq:JFrame) - Popup Trigger
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mic"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze", 0, "MicroBlaze", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze", 0); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze", 0, "MicroBlaze", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:9.5 microblaze_1 
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells microblaze_1] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mic"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1, "MicroBlaze Debug Module (MDM)", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1, "MicroBlaze Debug Module (MDM)", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:mdm:3.2 mdm_0 
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 646 MB. GUI used memory: 45 MB. Current time: 1/19/17 8:07:10 PM GMT+03:30
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1.5 278 -113} [get_bd_cells mdm_0] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_intf_net [get_bd_intf_pins mdm_0/MBDEBUG_0] [get_bd_intf_pins microblaze_0/DEBUG] 
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {2 665 -191} [get_bd_cells microblaze_0] 
+// HMemoryUtils.trashcanNow. Engine heap size: 666 MB. GUI used memory: 46 MB. Current time: 1/19/17 8:08:15 PM GMT+03:30
+// [Engine Memory]: 666 MB (+11007kb) [00:11:09]
+// Elapsed time: 69 seconds
+selectButton(PAResourceCommand.PACommandNames_SELECT_AREA, "System_select_area"); // s:JideToggleButton (CommandBar:DockableBar, cq:JFrame): TRUE
+// Run Command: PAResourceCommand.PACommandNames_SELECT_AREA
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1 242 -220} [get_bd_cells mdm_0] 
+// Elapsed time: 14 seconds
+selectButton(PAResourceCommand.PACommandNames_SELECT_AREA, "System_select_area"); // s:JideToggleButton (CommandBar:DockableBar, cq:JFrame): TRUE
+// Run Command: PAResourceCommand.PACommandNames_SELECT_AREA
+// cb:x (cq:JFrame): Select Area: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, cb:x)
+dismissDialog("Select Area"); // cb:x (cq:JFrame)
+selectButton(PAResourceQtoS.SystemBuilderView_BLOCK_DESIGN_OPTIONS, "System_options"); // s:JideToggleButton (CommandBar:DockableBar, cq:JFrame): TRUE
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceQtoS.SystemBuilderView_BLOCK_DESIGN_OPTIONS, "System_options"); // s:JideToggleButton (CommandBar:DockableBar, cq:JFrame): FALSE
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_SELECT_AREA, "System_select_area"); // s:JideToggleButton (CommandBar:DockableBar, cq:JFrame): FALSE
+// Run Command: PAResourceCommand.PACommandNames_SELECT_AREA
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1 284 -398} [get_bd_cells mdm_0] 
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {2 675 -403} [get_bd_cells microblaze_0] 
+// [GUI Memory]: 94 MB (+459kb) [00:11:54]
+// Elapsed time: 15 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "process"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "processor"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Processor System Reset", 5, "Processor System Reset", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Processor System Reset", 5); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Processor System Reset", 5, "Processor System Reset", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 proc_sys_reset_0 
+// Tcl Message: INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI 
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_proc_sys_reset_0_0/blockDesign_proc_sys_reset_0_0.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors. 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1 297 -213} [get_bd_cells proc_sys_reset_0] 
+// Elapsed time: 22 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi inter"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Interconnect", 4, "AXI Interconnect", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Interconnect", 4); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Interconnect", 4, "AXI Interconnect", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 axi_interconnect_0 
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_interconnect_0_0/blockDesign_axi_interconnect_0_0.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_ADD_OBJECT
+// [GUI Memory]: 102 MB (+3196kb) [00:12:42]
+// [Engine Memory]: 699 MB (+9kb) [00:12:42]
+// Tcl Message: ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors. 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 700 MB. GUI used memory: 51 MB. Current time: 1/19/17 8:09:50 PM GMT+03:30
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {2.5 1058 -387} [get_bd_cells axi_interconnect_0] 
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {3 1081 -355} [get_bd_cells axi_interconnect_0] 
+// Elapsed time: 23 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "cloc"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard", 2, "Clocking Wizard", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard", 2); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard", 2, "Clocking Wizard", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:5.2 clk_wiz_0 
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 730 MB. GUI used memory: 52 MB. Current time: 1/19/17 8:10:20 PM GMT+03:30
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1 77 -329} [get_bd_cells clk_wiz_0] 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// bF:g (cq:JFrame):  Save Design : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_proc_sys_reset_0_0/blockDesign_proc_sys_reset_0_0.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_interconnect_0_0/blockDesign_axi_interconnect_0_0.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: Wrote  : <E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/blockDesign.bd>  
+// Tcl Message: ERROR: [Common 17-39] 'save_bd_design' failed due to earlier errors. 
+// Elapsed time: 16 seconds
+dismissDialog("Save Design"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "conca"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0 
+// Tcl Message: endgroup 
+// [Engine Memory]: 738 MB (+4287kb) [00:13:34]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4 1069 -158} [get_bd_cells xlconcat_0] 
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4 1173 -122} [get_bd_cells xlconcat_0] 
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 76 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "axi inter"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Interrupt Controller", 5, "AXI Interrupt Controller", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Interrupt Controller", 5); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Interrupt Controller", 5, "AXI Interrupt Controller", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_intc:4.1 axi_intc_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4.5 1580 -413} [get_bd_cells axi_intc_0] 
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4 1282 -23} [get_bd_cells xlconcat_0] 
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {4 1280 33} [get_bd_cells xlconcat_0] 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_proc_sys_reset_0_0/blockDesign_proc_sys_reset_0_0.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_interconnect_0_0/blockDesign_axi_interconnect_0_0.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: Wrote  : <E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/blockDesign.bd>  
+// Tcl Message: ERROR: [Common 17-39] 'save_bd_design' failed due to earlier errors. 
+// bF:g (cq:JFrame):  Save Design : addNotify
+// Elapsed time: 22 seconds
+dismissDialog("Save Design"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Elapsed time: 13 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 764 MB. GUI used memory: 56 MB. Current time: 1/19/17 8:12:45 PM GMT+03:30
+// Elapsed time: 14 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+// Elapsed time: 33 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+// Elapsed time: 307 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+// Elapsed time: 13 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+// Elapsed time: 64 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Elapsed time: 14 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Local Memory Bus (LMB) 1.0", 9, "Local Memory Bus (LMB) 1.0", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Local Memory Bus (LMB) 1.0", 9); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Local Memory Bus (LMB) 1.0", 9, "Local Memory Bus (LMB) 1.0", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:lmb_v10:3.0 lmb_v10_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells lmb_v10_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Elapsed time: 11 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Direct Memory Access", 2, "AXI Direct Memory Access", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Direct Memory Access", 2); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Direct Memory Access", 2, "AXI Direct Memory Access", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_dma:7.1 axi_dma_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells axi_dma_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "LMB BRAM Controller", 8, "LMB BRAM Controller", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "LMB BRAM Controller", 8); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "LMB BRAM Controller", 8, "LMB BRAM Controller", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:lmb_bram_if_cntlr:4.0 lmb_bram_if_cntlr_0 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1.5 326 -116} [get_bd_cells lmb_bram_if_cntlr_0] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells lmb_bram_if_cntlr_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Elapsed time: 15 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "LMB BRAM Controller", 8, "LMB BRAM Controller", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "LMB BRAM Controller", 8); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "LMB BRAM Controller", 8, "LMB BRAM Controller", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:lmb_bram_if_cntlr:4.0 lmb_bram_if_cntlr_0 
+// Tcl Message: endgroup 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1.5 412 -140} [get_bd_cells lmb_bram_if_cntlr_0] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells lmb_bram_if_cntlr_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+// Elapsed time: 11 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+// Elapsed time: 64 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "System Cache", 11, "System Cache", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "System Cache", 11); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "System Cache", 11, "System Cache", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:system_cache:3.1 system_cache_0 
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// [Engine Memory]: 796 MB (+22453kb) [00:26:00]
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1.5 336 -340} [get_bd_cells system_cache_0] 
+// HMemoryUtils.trashcanNow. Engine heap size: 796 MB. GUI used memory: 57 MB. Current time: 1/19/17 8:23:10 PM GMT+03:30
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells system_cache_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+// Elapsed time: 20 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "memory"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI BRAM Controller", 0, "AXI BRAM Controller", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI BRAM Controller", 0); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI BRAM Controller", 0, "AXI BRAM Controller", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.0 axi_bram_ctrl_0 
+// Tcl Message: ERROR: [IP_Flow 19-395] Problem writing Design:  in e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_bram_ctrl_0_0/blockDesign_axi_bram_ctrl_0_0.xci: Unable to open file 
+// Tcl Message: ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors. 
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells axi_bram_ctrl_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mic"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1, "MicroBlaze Debug Module (MDM)", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze Debug Module (MDM)", 1, "MicroBlaze Debug Module (MDM)", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:mdm:3.2 mdm_1 
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {1.5 391 -178} [get_bd_cells mdm_1] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells mdm_1] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mic"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze MCS", 2, "MicroBlaze MCS", 0, false); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze MCS", 2); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "MicroBlaze MCS", 2, "MicroBlaze MCS", 0, false, false, false, false, false, true); // T:aw (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze_mcs:2.3 microblaze_mcs_0 
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_microblaze_mcs_0_1/blockDesign_microblaze_mcs_0_1.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors. 
+// bF:g (cq:JFrame):  Add IP : addNotify
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 835 MB. GUI used memory: 60 MB. Current time: 1/19/17 8:24:25 PM GMT+03:30
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells microblaze_mcs_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells proc_sys_reset_0] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells clk_wiz_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells xlconcat_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_cells axi_interconnect_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells axi_intc_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_intf_nets mdm_0_MBDEBUG_0] [get_bd_cells microblaze_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells mdm_0] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 185 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // y:JideButton (CommandBar:DockableBar, cq:JFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mic"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mic"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+applyEnter(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, (String) null); // T:aw (JViewport:JComponent, ResizableWindow:JWindow)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:9.5 microblaze_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// bF:g (cq:JFrame):  Add IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // i:l (JPanel:JComponent, cq:JFrame)
+// t:x (cq:JFrame): Run Block Automation: addNotify
+selectComboBox("pa.OptGroup_xilinx.com_bd_rule_microblaze_cache", "8KB", 2); // f:JComboBox (JPanel:JComponent, t:x)
+selectComboBox("pa.OptGroup_xilinx.com_bd_rule_microblaze_local_mem", "16KB", 3); // f:JComboBox (JPanel:JComponent, t:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:x)
+dismissDialog("Run Block Automation"); // t:x (cq:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bF:g (cq:JFrame):  Run Block Automation : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "16KB" ecc "None" cache "8KB" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_0/blockDesign_dlmb_bram_if_cntlr_0.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0 INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "16KB" ecc "None" cache "8KB" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]' 
+// F:a (cq:JFrame): Critical Messages: addNotify
+// [GUI Memory]: 110 MB (+2801kb) [00:30:39]
+dismissDialog("Run Block Automation"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 837 MB (+601kb) [00:30:40]
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, F:a)
+dismissDialog("Critical Messages"); // F:a (cq:JFrame)
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // i:l (JPanel:JComponent, cq:JFrame)
+// t:x (cq:JFrame): Run Block Automation: addNotify
+selectComboBox("pa.OptGroup_xilinx.com_bd_rule_microblaze_cache", "4KB", 1); // f:JComboBox (JPanel:JComponent, t:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:x)
+dismissDialog("Run Block Automation"); // t:x (cq:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bF:g (cq:JFrame):  Run Block Automation : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "8KB" ecc "None" cache "4KB" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_1/blockDesign_dlmb_bram_if_cntlr_1.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0 INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "8KB" ecc "None" cache "4KB" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]' 
+// F:a (cq:JFrame): Critical Messages: addNotify
+dismissDialog("Run Block Automation"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 31 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, F:a)
+dismissDialog("Critical Messages"); // F:a (cq:JFrame)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // i:l (JPanel:JComponent, cq:JFrame)
+// t:x (cq:JFrame): Run Block Automation: addNotify
+selectComboBox("pa.OptGroup_xilinx.com_bd_rule_microblaze_local_mem", "4KB", 1); // f:JComboBox (JPanel:JComponent, t:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:x)
+dismissDialog("Run Block Automation"); // t:x (cq:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bF:g (cq:JFrame):  Run Block Automation : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "4KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_2/blockDesign_dlmb_bram_if_cntlr_2.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0 INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "4KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]' 
+// F:a (cq:JFrame): Critical Messages: addNotify
+dismissDialog("Run Block Automation"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 860 MB. GUI used memory: 63 MB. Current time: 1/19/17 8:28:55 PM GMT+03:30
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, F:a)
+dismissDialog("Critical Messages"); // F:a (cq:JFrame)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // i:l (JPanel:JComponent, cq:JFrame)
+// t:x (cq:JFrame): Run Block Automation: addNotify
+selectCheckBox((HResource) null, "pa.OptGroup_xilinx.com_bd_rule_microblaze_axi_intc", true); // h:JCheckBox (JPanel:JComponent, t:x): TRUE
+selectComboBox("pa.OptGroup_xilinx.com_bd_rule_microblaze_local_mem", "4KB", 1); // f:JComboBox (JPanel:JComponent, t:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:x)
+dismissDialog("Run Block Automation"); // t:x (cq:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "4KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "1" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bF:g (cq:JFrame):  Run Block Automation : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_3/blockDesign_dlmb_bram_if_cntlr_3.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0 INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "4KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "1" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]' 
+// F:a (cq:JFrame): Critical Messages: addNotify
+dismissDialog("Run Block Automation"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, F:a)
+dismissDialog("Critical Messages"); // F:a (cq:JFrame)
+// Elapsed time: 11 seconds
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_BLOCK_AUTOMATION, "Run Block Automation"); // i:l (JPanel:JComponent, cq:JFrame)
+// t:x (cq:JFrame): Run Block Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, t:x)
+dismissDialog("Run Block Automation"); // t:x (cq:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "8KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0] 
+// bF:g (cq:JFrame):  Run Block Automation : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 879 MB (+383kb) [00:32:30]
+// Tcl Message: ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_4/blockDesign_dlmb_bram_if_cntlr_4.xci Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path. 
+// Tcl Message: INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0 INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "8KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]' 
+// F:a (cq:JFrame): Critical Messages: addNotify
+dismissDialog("Run Block Automation"); // bF:g (cq:JFrame)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_4/blockDesign_dlmb_bram_if_cntlr_4.xci. Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.", 0); // d:a (JViewport:JComponent, F:a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_4/blockDesign_dlmb_bram_if_cntlr_4.xci. Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.. Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.", 0, false, false, false, true, false); // d:a (JViewport:JComponent, F:a) - Popup Trigger
+// TclEventType: DG_UPDATE_GRAPH
+selectMenuItem(PAResourceAtoD.CmdMsgDialog_COPY_MESSAGE, "Copy Message"); // ae:JMenuItem (al:JPopupMenu, F:a)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceAtoD.CmdMsgDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, F:a)
+dismissDialog("Critical Messages"); // F:a (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 882 MB. GUI used memory: 65 MB. Current time: 1/19/17 8:29:40 PM GMT+03:30

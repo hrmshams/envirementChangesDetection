@@ -1,0 +1,250 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Jan 19 19:57:01 2017
+# Process ID: 7204
+# Current directory: E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2200 E:\ComputerEngineering\Digital Systems Design\project\vivado project\envirementChangesDetection\final project\EnvirementChangesDetection\EnvirementChangesDetection.xpr
+# Log file: E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/vivado.log
+# Journal file: E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/IOT_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 773.563 ; gain = 195.449
+add_files -norecurse {{E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/imageRecognizerModule.vhd} {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/TemperatureController.vhd} {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/deviderFunc.vhd} {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/source/LightController.vhd} {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/edit_IOT_v1_0.srcs/sources_1/new/MainModule.vhd}}
+create_bd_design "blockDesign"
+Wrote  : <E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/blockDesign.bd> 
+create_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 801.531 ; gain = 14.910
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:9.5 microblaze_0
+endgroup
+delete_bd_objs [get_bd_cells microblaze_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:mdm:3.2 mdm_0
+endgroup
+delete_bd_objs [get_bd_cells mdm_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:mdm:3.2 mdm_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze_mcs:2.3 microblaze_mcs_0
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_microblaze_mcs_0_0/blockDesign_microblaze_mcs_0_0.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_microblaze_mcs_0_0/blockDesign_microblaze_mcs_0_0.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_microblaze_mcs_0_0'.
+ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors.
+endgroup
+delete_bd_objs [get_bd_cells microblaze_mcs_0]
+delete_bd_objs [get_bd_cells mdm_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:9.5 microblaze_0
+endgroup
+set_property location {1.5 437 -92} [get_bd_cells microblaze_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:9.5 microblaze_1
+endgroup
+delete_bd_objs [get_bd_cells microblaze_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:mdm:3.2 mdm_0
+endgroup
+set_property location {1.5 278 -113} [get_bd_cells mdm_0]
+connect_bd_intf_net [get_bd_intf_pins mdm_0/MBDEBUG_0] [get_bd_intf_pins microblaze_0/DEBUG]
+set_property location {2 665 -191} [get_bd_cells microblaze_0]
+set_property location {1 242 -220} [get_bd_cells mdm_0]
+set_property location {1 284 -398} [get_bd_cells mdm_0]
+set_property location {2 675 -403} [get_bd_cells microblaze_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 proc_sys_reset_0
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_proc_sys_reset_0_0/blockDesign_proc_sys_reset_0_0.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_proc_sys_reset_0_0/blockDesign_proc_sys_reset_0_0.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_proc_sys_reset_0_0'.
+ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors.
+endgroup
+set_property location {1 297 -213} [get_bd_cells proc_sys_reset_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 axi_interconnect_0
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_interconnect_0_0/blockDesign_axi_interconnect_0_0.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_interconnect_0_0/blockDesign_axi_interconnect_0_0.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_axi_interconnect_0_0'.
+ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors.
+endgroup
+set_property location {2.5 1058 -387} [get_bd_cells axi_interconnect_0]
+set_property location {3 1081 -355} [get_bd_cells axi_interconnect_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wiz:5.2 clk_wiz_0
+endgroup
+set_property location {1 77 -329} [get_bd_cells clk_wiz_0]
+save_bd_design
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_proc_sys_reset_0_0/blockDesign_proc_sys_reset_0_0.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_proc_sys_reset_0_0/blockDesign_proc_sys_reset_0_0.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_proc_sys_reset_0_0'.
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_interconnect_0_0/blockDesign_axi_interconnect_0_0.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_interconnect_0_0/blockDesign_axi_interconnect_0_0.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_axi_interconnect_0_0'.
+Wrote  : <E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/blockDesign.bd> 
+ERROR: [Common 17-39] 'save_bd_design' failed due to earlier errors.
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0
+endgroup
+set_property location {4 1069 -158} [get_bd_cells xlconcat_0]
+set_property location {4 1173 -122} [get_bd_cells xlconcat_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_intc:4.1 axi_intc_0
+endgroup
+set_property location {4.5 1580 -413} [get_bd_cells axi_intc_0]
+set_property location {4 1282 -23} [get_bd_cells xlconcat_0]
+set_property location {4 1280 33} [get_bd_cells xlconcat_0]
+save_bd_design
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_proc_sys_reset_0_0/blockDesign_proc_sys_reset_0_0.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_proc_sys_reset_0_0/blockDesign_proc_sys_reset_0_0.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_proc_sys_reset_0_0'.
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_interconnect_0_0/blockDesign_axi_interconnect_0_0.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_interconnect_0_0/blockDesign_axi_interconnect_0_0.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_axi_interconnect_0_0'.
+Wrote  : <E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/blockDesign.bd> 
+ERROR: [Common 17-39] 'save_bd_design' failed due to earlier errors.
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:lmb_v10:3.0 lmb_v10_0
+endgroup
+delete_bd_objs [get_bd_cells lmb_v10_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_dma:7.1 axi_dma_0
+endgroup
+delete_bd_objs [get_bd_cells axi_dma_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:lmb_bram_if_cntlr:4.0 lmb_bram_if_cntlr_0
+WARNING: [IP_Flow 19-2162] IP 'blockDesign_lmb_bram_if_cntlr_0_0' is locked:
+* IP 'blockDesign_lmb_bram_if_cntlr_0_0' has a read-only file:
+   'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_lmb_bram_if_cntlr_0_0/blockDesign_lmb_bram_if_cntlr_0_0.xml'
+IP is write protected.
+* IP 'blockDesign_lmb_bram_if_cntlr_0_0' has a read-only file:
+   'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_lmb_bram_if_cntlr_0_0/blockDesign_lmb_bram_if_cntlr_0_0.xci' 
+with restricted functionality. Commands to change this IP's configuration are disallowed.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+endgroup
+set_property location {1.5 326 -116} [get_bd_cells lmb_bram_if_cntlr_0]
+delete_bd_objs [get_bd_cells lmb_bram_if_cntlr_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:lmb_bram_if_cntlr:4.0 lmb_bram_if_cntlr_0
+WARNING: [IP_Flow 19-2162] IP 'blockDesign_lmb_bram_if_cntlr_0_1' is locked:
+* IP 'blockDesign_lmb_bram_if_cntlr_0_1' has a read-only file:
+   'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_lmb_bram_if_cntlr_0_1/blockDesign_lmb_bram_if_cntlr_0_1.xml'
+IP is write protected.
+* IP 'blockDesign_lmb_bram_if_cntlr_0_1' has a read-only file:
+   'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_lmb_bram_if_cntlr_0_1/blockDesign_lmb_bram_if_cntlr_0_1.xci' 
+with restricted functionality. Commands to change this IP's configuration are disallowed.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+endgroup
+set_property location {1.5 412 -140} [get_bd_cells lmb_bram_if_cntlr_0]
+delete_bd_objs [get_bd_cells lmb_bram_if_cntlr_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:system_cache:3.1 system_cache_0
+endgroup
+set_property location {1.5 336 -340} [get_bd_cells system_cache_0]
+delete_bd_objs [get_bd_cells system_cache_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.0 axi_bram_ctrl_0
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] blockDesign_axi_bram_ctrl_0_0: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] blockDesign_axi_bram_ctrl_0_0: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+ERROR: [IP_Flow 19-395] Problem writing Design:  in e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_bram_ctrl_0_0/blockDesign_axi_bram_ctrl_0_0.xci: Unable to open file
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_axi_bram_ctrl_0_0/blockDesign_axi_bram_ctrl_0_0.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_axi_bram_ctrl_0_0'.
+ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors.
+endgroup
+delete_bd_objs [get_bd_cells axi_bram_ctrl_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:mdm:3.2 mdm_1
+endgroup
+set_property location {1.5 391 -178} [get_bd_cells mdm_1]
+delete_bd_objs [get_bd_cells mdm_1]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze_mcs:2.3 microblaze_mcs_0
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_microblaze_mcs_0_1/blockDesign_microblaze_mcs_0_1.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_microblaze_mcs_0_1/blockDesign_microblaze_mcs_0_1.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_microblaze_mcs_0_1'.
+ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors.
+endgroup
+delete_bd_objs [get_bd_cells microblaze_mcs_0]
+delete_bd_objs [get_bd_cells proc_sys_reset_0]
+delete_bd_objs [get_bd_cells clk_wiz_0]
+delete_bd_objs [get_bd_cells xlconcat_0]
+delete_bd_objs [get_bd_cells axi_interconnect_0]
+delete_bd_objs [get_bd_cells axi_intc_0]
+delete_bd_objs [get_bd_intf_nets mdm_0_MBDEBUG_0] [get_bd_cells microblaze_0]
+delete_bd_objs [get_bd_cells mdm_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:microblaze:9.5 microblaze_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "16KB" ecc "None" cache "8KB" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_0/blockDesign_dlmb_bram_if_cntlr_0.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_0/blockDesign_dlmb_bram_if_cntlr_0.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_dlmb_bram_if_cntlr_0'.
+WARNING: [xilinx.com:ip:microblaze:9.5-100] Failed to apply rule. Error message: "ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors."
+INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0
+INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "16KB" ecc "None" cache "8KB" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]'
+apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "8KB" ecc "None" cache "4KB" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_1/blockDesign_dlmb_bram_if_cntlr_1.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_1/blockDesign_dlmb_bram_if_cntlr_1.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_dlmb_bram_if_cntlr_1'.
+WARNING: [xilinx.com:ip:microblaze:9.5-100] Failed to apply rule. Error message: "ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors."
+INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0
+INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "8KB" ecc "None" cache "4KB" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]'
+apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "4KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_2/blockDesign_dlmb_bram_if_cntlr_2.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_2/blockDesign_dlmb_bram_if_cntlr_2.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_dlmb_bram_if_cntlr_2'.
+WARNING: [xilinx.com:ip:microblaze:9.5-100] Failed to apply rule. Error message: "ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors."
+INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0
+INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "4KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]'
+apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "4KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "1" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_3/blockDesign_dlmb_bram_if_cntlr_3.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_3/blockDesign_dlmb_bram_if_cntlr_3.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_dlmb_bram_if_cntlr_3'.
+WARNING: [xilinx.com:ip:microblaze:9.5-100] Failed to apply rule. Error message: "ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors."
+INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0
+INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "4KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "1" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]'
+apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "8KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_4/blockDesign_dlmb_bram_if_cntlr_4.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+CRITICAL WARNING: [IP_Flow 19-196] Failed to save XCI file 'e:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/EnvirementChangesDetection/EnvirementChangesDetection.srcs/sources_1/bd/blockDesign/ip/blockDesign_dlmb_bram_if_cntlr_4/blockDesign_dlmb_bram_if_cntlr_4.xci'.
+CRITICAL WARNING: [IP_Flow 19-194] Failed to save IP instance 'blockDesign_dlmb_bram_if_cntlr_4'.
+WARNING: [xilinx.com:ip:microblaze:9.5-100] Failed to apply rule. Error message: "ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors."
+INFO: [BD 5-145] Automation rule xilinx.com:bd_rule:microblaze was not applied to object microblaze_0
+INFO: [Common 17-17] undo 'apply_bd_automation -rule xilinx.com:bd_rule:microblaze -config {local_mem "8KB" ecc "None" cache "None" debug_module "Debug Only" axi_periph "Enabled" axi_intc "0" clk "New Clocking Wizard (100 MHz)" }  [get_bd_cells microblaze_0]'
