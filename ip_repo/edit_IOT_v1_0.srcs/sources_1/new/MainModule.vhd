@@ -73,11 +73,58 @@ component imageRecognizerModule
 Port (
  input : in std_logic;
  clk : in std_logic;
+ enable : in std_logic;
  err : out std_logic
  );
 end component imageRecognizerModule;
 -----------------------------------------------------------------
-
+------------------------INTERNAL SIGNALS-------------------------
+signal desiredTemp : std_logic_vector(7 downto 0);
+signal lightMicroBlazeCommand : std_logic;
+signal enableSig :std_logic;
+-----------------------------------------------------------------
 begin
+-- port maps
+imageRecognizer : imageRecognizerModule port map 
+    (input => input ,
+     enable => enableSig ,
+     err => err ,
+     clk => clk);
+     
+lightController : LightController port map
+    (LightSensor => LightSensor ,
+     LightOut => LightOut ,
+     microBlazeCommand => lightMicroBlazeCommand);
+    
+temperatureController : TemperatureController port map
+    (sensor1 => sensor1,
+     sensor2 => sensor2,
+     sensor3 => sensor3,
+     heater => heater,
+     cooler => cooler,
+     DesiredTemperature => desiredTemp);
 
+--microblaze commands logic
+p1 : process (OP)
+begin
+    if  OP(31 downto 16) = "00000000"  then--set temperature
+        desiredTemp <= OP(15 downto 0);
+    elsif  OP(31 downto 16) = "00000001"  then--light on
+        lightMicroBlazeCommand <= '1';
+    elsif OP(31 downto 16) = "00000010" then--light off
+        lightMicroBlazeCommand <= '0';
+--    else if OP(31 downto 16) = "00000011" then-- sound detection on        
+        --DO NOTHING
+--    else if OP(31 downto 16) = "00000100" then-- sound detection off
+        --DO NOTHING
+    elsif OP(31 downto 16) = "00000101" then-- image detection on
+        enableSig <= '1';
+    elsif OP(31 downto 16) = "00000110" then-- image detection off
+        enableSig <= '1';
+--    else
+        --DO NOTHING
+    end if;
+    
+end process p1;
+    
 end Behavioral;

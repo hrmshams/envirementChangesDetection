@@ -20,7 +20,6 @@ set_property ip_repo_paths {
 } [current_project]
 set_property vhdl_version vhdl_2k [current_fileset]
 read_vhdl -library xil_defaultlib {
-  {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/edit_IOT_v1_0.srcs/sources_1/new/MainModule.vhd}
   {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/iot_1.0/hdl/IOT_v1_0_S00_AXI.vhd}
   {E:/ComputerEngineering/Digital Systems Design/project/vivado project/envirementChangesDetection/final project/ip_repo/iot_1.0/hdl/IOT_v1_0.vhd}
 }

@@ -33,17 +33,17 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 --use UNISIM.VComponents.all;
 
 entity TemperatureController is
-    Port ( sensor1 : in std_logic_vector(7 downto 0);
-           sensor2 : in std_logic_vector(7 downto 0);
-           sensor3 : in std_logic_vector(7 downto 0);
-           DesiredTemperature : in std_logic_vector(7 downto 0);
+    Port ( sensor1 : in std_logic_vector(15 downto 0);
+           sensor2 : in std_logic_vector(15 downto 0);
+           sensor3 : in std_logic_vector(15 downto 0);
+           DesiredTemperature : in std_logic_vector(15 downto 0);
            heater : out STD_LOGIC;
            cooler : out STD_LOGIC);
 end TemperatureController;
 
 architecture Behavioral of TemperatureController is
 ------------------------------------------------------------------
-signal t : std_logic_vector(7 downto 0);
+signal t : std_logic_vector(15 downto 0);
 signal compare1 : boolean;
 signal compare2 : boolean;
 signal compare3 : boolean;
@@ -84,13 +84,13 @@ begin
     p2 : process(t)
     begin
         --enabling cooler or heater based on some calculations! 
-        if t < DesiredTemperature - "00000100" then --4
+        if t < DesiredTemperature - "0000000000000100" then --4
             heater <= '1';
             cooler <= '0';
-        elsif t < DesiredTemperature + "00000010" and t > DesiredTemperature - "00000010" then
+        elsif t < DesiredTemperature + "0000000000000010" and t > DesiredTemperature - "0000000000000010" then
             heater <= '0';
             cooler <= '0';
-        elsif t > DesiredTemperature + "00000100" then
+        elsif t > DesiredTemperature + "0000000000000100" then
             heater <= '0';
             cooler <= '1';
         end if;

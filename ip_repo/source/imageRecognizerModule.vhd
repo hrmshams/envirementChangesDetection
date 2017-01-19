@@ -36,6 +36,7 @@ entity imageRecognizerModule is
 Port (
  input : in std_logic;
  clk : in std_logic;
+ enable : in std_logic;
  err : out std_logic
  );
 end imageRecognizerModule;
@@ -60,7 +61,7 @@ begin
 ------this is the process for changing the states!-------
 p1 : process (clk)
 begin
-    if (rising_edge(clk)) then
+    if (rising_edge(clk) and enable = '1') then
         case  curState is
         when s0 => 
             if input = '1' then
@@ -180,7 +181,7 @@ end process p1;
 ------------------------------END OF PROCESS P1------------------------------------
 
 
------------- process p1 : this is the main process for changing the output ----------------
+------- process p1 : this is the main process for changing the output -------------
 p2 : process (clk)
 
 ----------------------- VARIABLES -------------------------------
@@ -197,7 +198,7 @@ constant hundred : std_logic_vector(6 downto 0) := "1100100";
 constant five : std_logic_vector(6 downto 0) := "0000101";
 -----------------------------------------------------------------
 begin
-  if (rising_edge(clk)) then
+  if (rising_edge(clk) and enable = '1') then
   
     case curState is
     when gettingPixels => 
